@@ -19,7 +19,8 @@ a {
     text-decoration: none;
 }
 /*logo*/
-.logo-fisrt {
+.logo-fisrt,
+.logo-footer {
     color: var(--accent-color);
     font-family: Raleway, serif;
     font-weight: 700;
@@ -29,10 +30,6 @@ a {
 
 .logo-second {
     color: #000;
-    font-family: Raleway, serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
 }
 
 /*site-nav*/
@@ -47,6 +44,11 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);  
+}
+
+.site-nav .link.current {
+    color: var(--button-text);
+    background-color: var(--accent-color);    
 }
 
 /*contacts*/
@@ -75,6 +77,7 @@ a {
     font-size: 44px;
     line-height: 1.4;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .hero-button {
@@ -126,7 +129,6 @@ a {
 
 .team-position {
     color: var(--secondary-text-color);
-    font-size: 16px;
     line-height: 1.2;
 }
 
@@ -138,10 +140,6 @@ a {
 
 .logo-footer {
     color: var(--button-text);
-    font-family: Raleway, serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
 }
 
 .address {
@@ -180,6 +178,5 @@ footer .contacts {
 
 .work-description {
     color: var(--secondary-text-color);
-    font-size: 16px;
     line-height: 1.9;
 }
