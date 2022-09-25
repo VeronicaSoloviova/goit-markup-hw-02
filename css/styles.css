@@ -47,8 +47,7 @@ a {
 }
 
 .site-nav .link.current {
-    color: var(--button-text);
-    background-color: var(--accent-color);    
+    color: var(--accent-color);    
 }
 
 /*contacts*/
@@ -145,10 +144,12 @@ a {
 .address {
     color: var(--button-text);
     font-style: normal;
+    font-size: 14px;
 }
 
 footer .contacts {
     font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /*PORTFOLIO PAGE*/
